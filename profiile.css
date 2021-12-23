@@ -1,0 +1,77 @@
+.header {
+    color: rgb(110, 3, 3);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    background-color:#FEFBE8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    border-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    padding-left: 800px;
+}
+
+.link {
+    padding-left: 20px;
+}
+
+.hobi {
+    color: rgb(66, 24, 114);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-width: 2px;
+}
+
+#halo {
+    background-position: center;
+    color: #2F2C32;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 10px;
+    margin-top: 0px;
+    border-top: 0px;
+    font-weight: 600;
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+}
+
+.foto {
+    border-radius:50%;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.paragraf {
+    background-color: #FEFBE8;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+li {
+    display: inline;
+}
+
+.item {
+    background-color:  #2F2C32;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

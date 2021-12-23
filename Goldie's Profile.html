@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profiile.css"/>
+    <title>Profile Goldie</title>
+</head>
+<body>
+    <div class="header">
+       <p>Winter Club 2021</p> 
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+            <nav class="nav">
+                <ul>
+                    <li class="link"><a href='#'>tentang aku</a></li>
+                    <li class="link"><a href='#'>hobi</a></li>
+                    <li class="link"><a href='#'>favorit</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    <div class="halo" id="halo" style="background-image: url(gradient\ bg.jpg);">
+        <h1><b>halo, aku goldie!</b></h1>
+        <button type="button" onclick="changeBackground()">click here !</button>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    </div>
+
+    <div>
+        <img class="foto" style="width:250px" src="fotow.jpeg">
+    </div>
+
+    <div>
+        <p class="paragraf">Nama aku Goldie Nelvina Uli Pasaribu. Aku biasa dipanggil Goldie. Aku lahir di Bekasi pada 30 April 2006. Saat ini aku kelas 10 di santa ursula jakarta.</p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </div>
+
+    <p  class="hobi"><b>Hobi :</b></p>
+    <ul>
+        <li>Main gitar</li>
+        <li>Main basket</li>
+        <li>Nonton film & drakor</li>
+        <li>Baca buku-buku fiksi</li>
+    </ul>
+
+    <div>
+        <button onclick="confirmBox()">submit</button>
+        <p id="txt"></p>
+        <script>
+            function confirmBox(){
+            var text;
+            if(confirm("you want to submit this?")) {
+                text = "you pressed ok"
+            } else {
+                text = "you pressesd cancel"
+            }
+            document.getElementById("txt").innerHTML = text;
+        }
+        </script>
+    </div>
+    <table>
+        <tr>
+            <th>Makanan Favorit</th>
+            <th>Minuman Favorit</th>
+        </tr>
+        <tr>
+            <td>Mie bakso</td>
+            <td>Lychee tea</td>
+        </tr>
+        <tr>
+            <td>Gudeg</td>
+            <td>Green Sands lime & lychee</td>
+        </tr>
+    </table><br>
+
+    <a href="https://open.spotify.com/playlist/6C03DE7fONf4UtODOBItib?si=ed1e8643a8444e87" target="playlist_blank">Spotify Playlist</a>
+
+    <script>
+        changeBackground()
+        {
+            document.getElementById('halo').style.backgroundImage = "url('gradient2.jpg')";
+        }
+    </script>
+</body>
+</html>
